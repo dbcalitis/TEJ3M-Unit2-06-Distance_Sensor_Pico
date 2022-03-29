@@ -8,8 +8,8 @@ from machine import Pin
 import utime
 
 # Sets the pins for trigger and echo
-trigger = Pin(3, Pin.OUT)
-echo = Pin(2 Pin.IN)
+trigger = Pin(13, Pin.OUT)
+echo = Pin(14, Pin.IN)
 
 # Main function
 def ultra():
